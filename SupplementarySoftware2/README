@@ -1,0 +1,13 @@
+SILENCING DREAM5 DATASETS
+
+In a Matlab workspace run the program: RUN.m
+
+The program uploads all Gij matrices from the directory INPUT/Predictions.
+It silences all Gij matrices using the code SILENCING.m
+The output (Gij and Sij) is saved to the directory PREDICTIONS 
+(only top scoring 100,000 links are saved from Gij and Sij).
+The code then reads the the predctions from the directory PREDICTIONS and uses 
+the DREAM5 evaluation script to score them.
+The DREAM5 evaluation codes appear in directory DREAM5Codes, and the scoring of
+all methods is saved to the directory SCORES.
+  

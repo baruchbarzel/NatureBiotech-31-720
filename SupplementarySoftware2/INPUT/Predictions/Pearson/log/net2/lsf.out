@@ -1,0 +1,36 @@
+Sender: LSF System <lsf@node337>
+Subject: Job 192554: <623> Done
+
+Job <623> was submitted from host <gpdream> by user <gpdream> in cluster <cromwell>.
+Job was executed on host(s) <node337>, in queue <hour>, as user <gpdream> in cluster <cromwell>.
+</home/unix/gpdream> was used as the home directory.
+</xchip/gpdev/servers/dream/jobResults/623> was used as the working directory.
+Started at Sun Aug 12 10:34:49 2012
+Results reported at Sun Aug 12 10:35:01 2012
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+'java' '-Xmx1g' '-jar' '/xchip/gpdev/servers/dream/taskLib/BasicCorrelation.5.240/Correlation.jar' '--data' '/xchip/gpdev/servers/dream/shared_data/dream5_data/net2/net2_expression_data.tsv' '--reg' '/xchip/gpdev/servers/dream/shared_data/dream5_data/net2/net2_transcription_factors.tsv' '--cut' '-1' '--cor' 'pearson' >> 'stdout.txt'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :      6.46 sec.
+    Max Memory :         3 MB
+    Max Swap   :        44 MB
+
+    Max Processes  :         1
+    Max Threads    :         1
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </xchip/gpdev/servers/dream/jobResults/623/stderr.txt> for stderr output of this job.
+

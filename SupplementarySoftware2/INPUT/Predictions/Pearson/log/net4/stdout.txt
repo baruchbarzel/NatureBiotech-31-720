@@ -1,0 +1,11 @@
+Reading file: /xchip/gpdev/servers/dream/shared_data/dream5_data/net4/net4_expression_data.tsv
+5950	genes
+536	samples
+
+Reading file: /xchip/gpdev/servers/dream/shared_data/dream5_data/net4/net4_transcription_factors.tsv
+333	regulators
+
+Computing Pearson correlation...
+
+Writing file: net4_expression_data_Correlation_predictions.txt
+Success!

@@ -1,0 +1,36 @@
+Sender: LSF System <lsf@node403>
+Subject: Job 198681: <634> Done
+
+Job <634> was submitted from host <gpdream> by user <gpdream> in cluster <cromwell>.
+Job was executed on host(s) <node403>, in queue <hour>, as user <gpdream> in cluster <cromwell>.
+</home/unix/gpdream> was used as the home directory.
+</xchip/gpdev/servers/dream/jobResults/634> was used as the working directory.
+Started at Sun Aug 12 11:17:50 2012
+Results reported at Sun Aug 12 11:34:05 2012
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+'/xchip/gpdev/servers/dream/taskLib/CLR.22.152/clr' '--data' '/xchip/gpdev/servers/dream/shared_data/dream5_data/net1/net1_expression_data.tsv' '--reg' '/xchip/gpdev/servers/dream/shared_data/dream5_data/net1/net1_transcription_factors.tsv' '--cut' '-1' '--bins' '10' '--spline' '3' >> 'stdout.txt'
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time   :    806.55 sec.
+    Max Memory :       147 MB
+    Max Swap   :       186 MB
+
+    Max Processes  :         3
+    Max Threads    :         4
+
+The output (if any) follows:
+
+
+
+PS:
+
+Read file </xchip/gpdev/servers/dream/jobResults/634/stderr.txt> for stderr output of this job.
+

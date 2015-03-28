@@ -1,0 +1,8 @@
+# Created: Sun Aug 12 10:37:23 EDT 2012 by dmarbach@mit.edu
+# Job: 624    server:  http://dream.broadinstitute.org/gp/
+# Module: BasicCorrelation urn:lsid:8080.gpdream.dream.broadinstitute.org:genepatternmodules:132:5
+# Parameters: 
+#    data = /xchip/gpdev/servers/dream/shared_data/dream5_data/net3/net3_expression_data.tsv   /gp/data//xchip/gpdev/servers/dream/shared_data/dream5_data/net3/net3_expression_data.tsv
+#    regulators = /xchip/gpdev/servers/dream/shared_data/dream5_data/net3/net3_transcription_factors.tsv   /gp/data//xchip/gpdev/servers/dream/shared_data/dream5_data/net3/net3_transcription_factors.tsv
+#    cutoff = -1
+#    correlation = pearson

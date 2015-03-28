@@ -1,0 +1,9 @@
+# Created: Mon Aug 13 17:49:01 EDT 2012 by dmarbach@mit.edu
+# Job: 650    server:  http://dream.broadinstitute.org/gp/
+# Module: CLR urn:lsid:8080.gpdream.dream.broadinstitute.org:genepatternmodules:103:22
+# Parameters: 
+#    data = /xchip/gpdev/servers/dream/shared_data/dream5_data/net4/net4_expression_data.tsv   /gp/data//xchip/gpdev/servers/dream/shared_data/dream5_data/net4/net4_expression_data.tsv
+#    regulators = /xchip/gpdev/servers/dream/shared_data/dream5_data/net4/net4_transcription_factors.tsv   /gp/data//xchip/gpdev/servers/dream/shared_data/dream5_data/net4/net4_transcription_factors.tsv
+#    cutoff = -1
+#    bins = 10
+#    spline = 3

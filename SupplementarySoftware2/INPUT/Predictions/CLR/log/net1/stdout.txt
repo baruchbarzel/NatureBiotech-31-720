@@ -1,0 +1,4 @@
+There are 1643 genes and 805 experimental conditions in file /xchip/gpdev/servers/dream/shared_data/dream5_data/net1/net1_expression_data.tsv
+There are 195 TFs in file /xchip/gpdev/servers/dream/shared_data/dream5_data/net1/net1_transcription_factors.tsv
+Computing MI: spline degree 3, number of bins 10
+Success, your output has been written to net1_expression_data_CLR_predictions.txt

@@ -1,0 +1,42 @@
+ANALYSIS OF THE E. COLI NETWORK
+
+The expression data was treated as follows:
+
+Starting with M, a 805*4511 matrix describing the 
+mRNA levels of 4511 genes under 805 different conditions.
+
+First I subtracted the average expression level of each 
+gene accross the 805 conditions from the relevant term:
+
+Mij ----> Mij - <Mij>_j 
+
+Then I used the exponent of the resulting terms to account for the
+actual perturbation (not the Logged one):
+
+Mij ----> e^(Mij)
+
+I then used Pearson correlations to obtain Gij:
+
+For each Trascription Factor s (s = 1:141), 
+I caclculated the correlation with all 
+4511 remaining genes:
+
+Gsj = corrcoef(M(:,s), M(:,j)).
+
+For the diagoinal I used Gii = 1 for all i = 1:4511.
+
+I used the SIlencer to transform G to S.
+
+And claclulated Analysis:
+
+Analysis = [Precentile, Recall, Precision, TPR, FPR]
+
+For E. Coli: 
+
+G_AUROC = 0.5 + 0.0995
+S_AUROC = 0.5 + 0.1374
+ 
+Silencing Ratio:
+
+G = [1, 0.6369]
+S = [1, 0.2786]

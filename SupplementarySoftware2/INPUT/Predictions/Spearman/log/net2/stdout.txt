@@ -1,0 +1,11 @@
+Reading file: /xchip/gpdev/servers/dream/shared_data/dream5_data/net2/net2_expression_data.tsv
+2810	genes
+160	samples
+
+Reading file: /xchip/gpdev/servers/dream/shared_data/dream5_data/net2/net2_transcription_factors.tsv
+99	regulators
+
+Computing Spearman's correlation...
+
+Writing file: net2_expression_data_Correlation_predictions.txt
+Success!

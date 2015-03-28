@@ -1,0 +1,8 @@
+METHOD	ORGANISM SCORE (In silico, S. cereviciae, E. coli)	MEAN AUPR SCORE	MEAN AUROC SCORE	OVERALL SCORE
+
+
+ARACNE_S	36.6724      7.82866     0.948657      21.8727      8.42709      15.1499
+CLR_S	51.2626      4.43934      1.81133         22.6      15.7422      19.1711
+Pearson_S	34.7543      6.24105     0.782158      15.2107       12.641      13.9258
+RelevanceNet_S	46.219      9.71395     0.138108      25.4768      11.9039      18.6904
+Spearman_S	23.2193      4.49605     0.613536      11.5568      7.32915      9.44296
